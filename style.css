@@ -1,0 +1,31 @@
+
+
+
+#menu {
+	border-bottom:solid 1px; border-color:#DCDCDC;
+}
+
+.navbar .navbar-nav {
+  float: none;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        float: none;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 992px) {
+  #navbarlogo {
+    visibility: hidden;
+    display: none;
+  }
+}
+
